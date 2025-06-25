@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#000000">
+    <meta name="keywords" content="PC, Notebook, Gamers, BitNova, Tecno, Tecno">
+    <meta name="author" content="Ledesma Jose Nicolas">
+    <meta name="title" content="BitNova - Tecnologia que te potencia">
+    <meta name="description" content="Potenciá tu mundo digital con la mejor tecnología. Equipos armados | Notebooks | Componentes | Accesorios.">
+    
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="BitNova" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://use.typekit.net/fkk2ivq.css">
+    <title>BitNova - Tecnologia que te potencia</title>
+</head>
+<body>
+    <!--boton para volver al inicio-->
+    <button type="button" class="btn btn-lg" id="boton-volver">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <header class="w-100 sticky-top">
+        <h1>BitNova - Tecnologia que te potencia</h1>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a id="logo-mmg" class="navbar-brand" href="#">BitNova</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li class="nav-item"><a class="nav-link" href="#empresa">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#que-ofrecemos">Que ofrecemos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#opiniones">Opiniones</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#asesoramiento">Asesoramiento</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-cart-fill"><span>Carrito de compras</span></i></a></li>
+                        <li class="nav-item"><a id="modal-alumnos" class="nav-link" href="#modal"><i class="bi bi-info-circle-fill"><span>Alumno</span></i></a></li>
+                    </ul>
+
+                    <div id="modal" class="modal-alumnos">
+                        <div class="contenido-modal">
+                            <a href="#cerrar" class="cerrar">X</a>
+                            <h2 class="text-center">Alumno</h2>
+                            <div class="fila">
+                                <div class="columna">
+                                    <h3>Jose Nicolas Ledesma</h3>
+                                    <img class="mb-3" alt="Foto" src="img/otros/alumno.jpg">
+                                    <p>30 Años</p>
+                                    <p>jose.ledesma@davinci.edu.ar</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div id="carouselBanner" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <picture class="carousel-item w-100 active">
+                    <!-- Breakpoint 576px  -->
+                    <source srcset="img/banners/optimizado/Banner01-576.webp" class="d-block w-100 img-fluid c-img" media="(max-width:576px)">
+                    <!-- Breakpoint 768px  -->
+                    <source srcset="img/banners/optimizado/Banner01-768.webp" class="d-block w-100 img-fluid c-img" media="(max-width:768px)">
+                    <!-- Breakpoint 992px -->
+                    <source srcset="img/banners/optimizado/Banner01-992.webp" class="d-block w-100 img-fluid c-img" media="(max-width:992px)">
+                    <!-- Breakpoint 1200px -->
+                    <source srcset="img/banners/optimizado/Banner01-1200.webp" class="d-block w-100 img-fluid c-img" media="(max-width:1200px)">
+                    <!-- Breakpoint 1400px -->
+                    <img src="img/banners/Banner01.webp" class="d-block w-100 img-fluid c-img" alt="Imagen de un auricular">
+                </picture>
+                <picture class="carousel-item c-item w-100">
+                    <!-- Breakpoint 576px  -->
+                    <source srcset="img/banners/optimizado/Banner02-576.webp" class="d-block w-100 img-fluid c-img" media="(max-width:576px)">
+                    <!-- Breakpoint 768px  -->
+                    <source srcset="img/banners/optimizado/Banner02-768.webp" class="d-block w-100 img-fluid c-img" media="(max-width:768px)">
+                    <!-- Breakpoint 992px -->
+                    <source srcset="img/banners/optimizado/Banner02-992.webp" class="d-block w-100 img-fluid c-img" media="(max-width:992px)">
+                    <!-- Breakpoint 1200px -->
+                    <source srcset="img/banners/optimizado/Banner02-1200.webp" class="d-block w-100 img-fluid c-img" media="(max-width:1200px)">
+                    <!-- Breakpoint 1400px -->
+                    <img src="img/banners/Banner02.webp" class="d-block w-100 img-fluid c-img" alt="Imagen de una mujer con un auricular">
+                </picture>
+                <picture class="carousel-item c-item w-100">
+                    <!-- Breakpoint 576px  -->
+                    <source srcset="img/banners/optimizado/Banner03-576.webp" class="d-block w-100 img-fluid c-img" media="(max-width:576px)">
+                    <!-- Breakpoint 768px  -->
+                    <source srcset="img/banners/optimizado/Banner03-768.webp" class="d-block w-100 img-fluid c-img" media="(max-width:768px)">
+                    <!-- Breakpoint 992px -->
+                    <source srcset="img/banners/optimizado/Banner03-992.webp" class="d-block w-100 img-fluid c-img" media="(max-width:992px)">
+                    <!-- Breakpoint 1200px -->
+                    <source srcset="img/banners/optimizado/Banner03-1200.webp" class="d-block w-100 img-fluid c-img" media="(max-width:1200px)">
+                    <!-- Breakpoint 1400px -->
+                    <img src="img/banners/Banner03.webp" class=" d-block w-100 img-fluid c-img" alt="Imagen de un auricular con flores">
+                </picture>
+            </div>
+        </div>
+
+        <!-- Sección de Introducción a la empresa -->
+        <section class="container" id="empresa">
+            <h2 class="mb-3 mt-5 text-center">Nosotros</h2>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <p>En <strong>BitNova</strong> somos apasionados por la tecnología. Nacimos con la misión de acercarte los mejores equipos, componentes y soluciones informáticas, ya seas gamer, profesional o simplemente quieras una notebook confiable para el día a día.</p>
+                    <p>Nos especializamos en la venta de <strong>PCs armadas a medida, notebooks de primeras marcas</strong>, y todo tipo de <strong>hardware y accesorios</strong>. Pero no solo vendemos productos: te brindamos <strong>asesoramiento personalizado</strong>, soporte y atención postventa para que compres con total confianza.</p>
+                    <p>Elegimos cada componente con el mismo cuidado con el que armaríamos nuestro propio equipo. Porque más que vender, nos gusta <strong>potenciar tu mundo digital</strong>.</p>
+
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <img class="w-100" alt="imagen nosotros - estudio" src="img/otros/nosotros.webp">
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <!-- Sección de Introducción al producto -->
+        <section class="container" id="que-ofrecemos">
+            <h2 class="mb-3 mt-5 text-center">Qué ofrecemos</h2>
+            <div class="row justify-content-center align-items-center">
+                <!-- <div class="izq-ofrecemos col-lg-6 col-md-12">
+                    <img class="w-100" alt="imagen ofrecemos - estudio" src="img/otros/ofrecemos.jpg">
+                </div> -->
+                <div class="row justify-content-center row-gap-5">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card text-center h-100">
+                        
+                            <div class="card-body">
+                                <h3 class="card-title">Venta de PCs y notebooks</h3>
+                                <br>
+                                <p class="card-text">Equipos listos para usar, de marcas reconocidas y configuraciones para todos los usos: hogar, oficina, gaming y diseño.</p>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card text-center h-100">
+                        
+                            <div class="card-body">
+                                <h3 class="card-title">PCs armadas a medida</h3>
+                                <br>
+                                <p class="card-text">Elegí el rendimiento que necesitás y nosotros la armamos por vos. Usamos componentes originales y optimizados para cada necesidad.</p>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card text-center h-100">
+
+                            <div class="card-body">
+                                <h3 class="card-title">Componentes y periféricos</h3>
+                                <br>
+                                <p class="card-text">Placas de video, discos SSD, memorias RAM, fuentes, gabinetes, monitores, teclados y todo lo que necesitás para actualizar tu setup.</p>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card text-center h-100">
+
+                            <div class="card-body">
+                                <h3 class="card-title">Asesoramiento personalizado</h3>
+                                <br>
+                                <p class="card-text">No necesitás ser experto. Te ayudamos a elegir lo mejor según tu uso, presupuesto y expectativas.</p>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card text-center h-100">
+
+                            <div class="card-body">
+                                <h3 class="card-title">Envíos a todo el país</h3>
+                                <br>
+                                <p class="card-text">Rápidos, seguros y con seguimiento. También ofrecemos retiro en punto físico o entrega express en zonas seleccionadas.</p>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card text-center h-100">
+
+                            <div class="card-body">
+                                <h3 class="card-title">Garantía y soporte</h3>
+                                <br>
+                                <p class="card-text">Todos nuestros productos cuentan con garantía oficial y asistencia postventa. Porque la confianza se construye también después de la compra.</p>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Productos -->
+        <section class="container" id="productos">
+            <h2 class="mb-3 mt-5 text-center">Productos</h2>
+            <p class="text-center">Aquí podras ver algunos de nuestros productos.</p>
+            <div class="row">
+                <!--Pastilla contenido 1-->
+                
+                <article class="col-lg-4 col-md-6 col-sm-12 producto">
+                    <div class="">
+                    <h3 class="two-lines">PC INTEL I9 13900 RTX 4080 RAM 32GB SSD 1TB</h3>
+                    <img src="img/productos/001.webp" alt="Foto PC Intel">
+                    <ul>
+                        <li><strong>Procesador:</strong> Intel Core i9 13900</li>
+                        <li><strong>Placa de video:</strong> NVIDIA RTX 4080</li>
+                        <li><strong>Memoria RAM:</strong> 32GB DDR5</li>
+                        <li><strong>Almacenamiento:</strong> SSD 1TB NVMe</li>
+                        <li><strong>Gabinete:</strong> ATX GAMER RGB</li>
+                        <li><strong>SO:</strong> Windows 11 Pro</li>
+                    </ul>
+                    <p class="price"><span class="negrita">Precio:</span> $4.500.000</p>
+                    
+                    <div class="div-botones">
+                        <button data-bs-toggle="modal" data-bs-target="#modalAgregarCarrito">Agregar al carrito<i class="bi bi-cart-fill"><span>Carrito de compras</span></i></button>
+                        <button data-bs-toggle="modal" data-bs-target="#modalDetalles">Ver detalles<i class="bi bi-arrow-up-right">
+                                <span>Información</span></i></button>
+                    </div>
+                    </div>
+                </article>
+                
+                <!-- Pastilla de contenido 2 -->
+                <article class="col-lg-4 col-md-6 col-sm-12 producto">
+                    <h3 class="two-lines">PC AMD RYZEN 7 8700G RAM 16GB SSD 480GB</h3>
+                    <img src="img/productos/002.webp" alt="Foto PC AMD">
+                    <ul>
+                        <li><strong>Procesador:</strong> AMD Ryzen 7 8700G</li>
+                        <li><strong>Placa de video:</strong> Integrada</li>
+                        <li><strong>Memoria RAM:</strong> 16GB DDR4</li>
+                        <li><strong>Almacenamiento:</strong> SSD 480GB</li>
+                        <li><strong>Gabinete:</strong> ATX GAMER RGB</li>
+                        <li><strong>SO:</strong> Windows 11 Home</li>
+                    </ul>
+                    <p class="price"><span class="negrita">Precio:</span> $1.200.000</p>
+                    
+                    <div class="div-botones">
+                        <button data-bs-toggle="modal" data-bs-target="#modalAgregarCarrito">Agregar al carrito<i class="bi bi-cart-fill"><span>Carrito de compras</span></i></button>
+                        <button data-bs-toggle="modal" data-bs-target="#modalDetalles">Ver detalles<i class="bi bi-arrow-up-right">
+                                <span>Información</span></i></button>
+                    </div>
+                </article>
+                <!-- Pastilla de contenido 3 -->
+                <article class="col-lg-4 col-md-6 col-sm-12 producto">
+                    <h3 class="two-lines">PC GAMER/DISEÑO INICIAL AMD RAM 16GB SSD 480GB</h3>
+                    <img src="img/productos/003.webp" alt="Foto PC Gamer/Diseno Inicial AMD">
+                    <ul>
+                        <li><strong>Procesador:</strong> AMD Ryzen 5 5600G</li>
+                        <li><strong>Placa de video:</strong> Integrada</li>
+                        <li><strong>Memoria RAM:</strong> 16GB DDR4</li>
+                        <li><strong>Almacenamiento:</strong> SSD 480GB</li>
+                        <li><strong>Gabinete:</strong> ATX GAMER RGB</li>
+                        <li><strong>SO:</strong> Windows 11 Home</li>
+                    </ul>
+                    <p class="price"><span class="negrita">Precio:</span> $998.000</p>
+                    
+                    <div class="div-botones">
+                        <button data-bs-toggle="modal" data-bs-target="#modalAgregarCarrito">Agregar al carrito<i class="bi bi-cart-fill"><span>Carrito de compras</span></i></button>
+                        <button data-bs-toggle="modal" data-bs-target="#modalDetalles">Ver detalles<i class="bi bi-arrow-up-right">
+                                <span>Información</span></i></button>
+                    </div>
+                </article>
+                <!--Pastilla contenido 4-->
+                <article class="col-lg-4 col-md-6 col-sm-12 producto">
+                    <h3 class="two-lines">PC GAMER/DISEÑO INTERMEDIO INTEL RAM 16GB SSD 480GB</h3>
+                    <img src="img/productos/004.webp" alt="Foto PC Gamer/Diseno Intermedio Intel">
+                    <ul>
+                        <li><strong>Procesador:</strong> Intel Core i5-12400F</li>
+                        <li><strong>Placa de video:</strong> NVIDIA GeForce GTX 1660</li>
+                        <li><strong>Memoria RAM:</strong> 16GB DDR4</li>
+                        <li><strong>Almacenamiento:</strong> SSD 480GB</li>
+                        <li><strong>Gabinete:</strong> ATX GAMER RGB</li>
+                        <li><strong>SO:</strong> Windows 11 Home</li>
+                    </ul>
+                    <p class="price"><span class="negrita">Precio:</span> $1.450.000</p>
+                    
+                    <div class="div-botones">
+                        <button data-bs-toggle="modal" data-bs-target="#modalAgregarCarrito">Agregar al carrito<i class="bi bi-cart-fill"><span>Carrito de compras</span></i></button>
+                        <button data-bs-toggle="modal" data-bs-target="#modalDetalles">Ver detalles<i class="bi bi-arrow-up-right">
+                                <span>Información</span></i></button>
+                    </div>
+                </article>
+                <!--Pastilla contenido 5-->
+                <article class="col-lg-4 col-md-6 col-sm-12 producto">
+                    <h3 class="two-lines">NOTEBOOK AORUS 15G BKF-73LA583LH FHD 360HZ RTX 4060</h3>
+                    <img src="img/productos/005.webp" alt="Foto Notebook Aorus 15G">
+                    <ul>
+                        <li><strong>Procesador:</strong> Intel Core i7-13700H</li>
+                        <li><strong>Placa de video:</strong> NVIDIA GeForce RTX 4060</li>
+                        <li><strong>Memoria RAM:</strong> 16GB DDR5</li>
+                        <li><strong>Almacenamiento:</strong> SSD 1TB NVMe</li>
+                        <li><strong>Pantalla:</strong> 15.6" FHD 360Hz</li>
+                        <li><strong>SO:</strong> Windows 11 Home</li>
+                    </ul>
+                    <p class="price"><span class="negrita">Precio:</span> $2.999.990</p>
+                    
+                    <div class="div-botones">
+                        <button data-bs-toggle="modal" data-bs-target="#modalAgregarCarrito">Agregar al carrito<i class="bi bi-cart-fill"><span>Carrito de compras</span></i></button>
+                        <button data-bs-toggle="modal" data-bs-target="#modalDetalles">Ver detalles<i class="bi bi-arrow-up-right">
+                                <span>Información</span></i></button>
+                    </div>
+                </article>
+                <!--Pastilla contenido 6-->
+                <article class="col-lg-4 col-md-6 col-sm-12 producto">
+                    <h3 class="two-lines">NOTEBOOK MSI Cyborg 15.6" FHD 144Hz RTX 4050 6Gb</h3>
+                    <img src="img/productos/006.webp" alt="Foto Notebook MSI Cyborg">
+                    <ul>
+                        <li><strong>Procesador:</strong> Intel Core i7-13620H</li>
+                        <li><strong>Placa de video:</strong> NVIDIA GeForce RTX 4050 6GB</li>
+                        <li><strong>Memoria RAM:</strong> 16GB DDR4</li>
+                        <li><strong>Almacenamiento:</strong> SSD 512GB NVMe</li>
+                        <li><strong>Pantalla:</strong> 15.6" FHD 144Hz</li>
+                        <li><strong>SO:</strong> Windows 11 Home</li>
+                    </ul>
+                    <p class="price"><span class="negrita">Precio:</span> $2.249.999</p>
+                    
+                    <div class="div-botones">
+                        <button data-bs-toggle="modal" data-bs-target="#modalAgregarCarrito">Agregar al carrito<i class="bi bi-cart-fill"><span>Carrito de compras</span></i></button>
+                        <button data-bs-toggle="modal" data-bs-target="#modalDetalles">Ver detalles<i class="bi bi-arrow-up-right">
+                                <span>Información</span></i></button>
+                    </div>
+                </article>
+            </div>
+            <a id="mas-productos" href="#">Consulta más productos<i id="flecha-mas-productos" class="bi bi-arrow-right"><span>Más productos</span></i></a>
+        </section>
+
+        <!-- opiniones -->
+        <section class="container" id="opiniones">
+            <h2 class="text-center mb-5 mt-5">Opiniones</h2>
+            <div class="row justify-content-center row-gap-5">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card text-center h-100">
+                        <picture>
+                            <img src="img/opiniones/perfil1.jpg" class="card-img-top" alt="Foto de Gonzalo R.">
+                        </picture>
+                        <div class="card-body">
+                            <h3 class="card-title">Gonzalo R.</h3>
+                            <h4 class="card-subtitle mb-2 text-body-secondary">Buenos Aires</h4>
+                            <p class="card-text"><em>"Armé mi primera PC gamer con ellos. Me guiaron en todo el proceso y quedó espectacular. Muy buena calidad de componentes."</em></p>
+                        </div>
+                        <ul class="reseña">
+                            <li><i class="bi bi-star-fill"><span>Estrella</span></i></li>
+                            <li><i class="bi bi-star-fill"><span>Estrella</span></i></li>
+                            <li><i class="bi bi-star-fill"><span>Estrella</span></i></li>
+                            <li><i class="bi bi-star-fill"><span>Estrella</span></i></li>
+                            <li><i class="bi bi-star-fill"><span>Estrella</span></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card text-center h-100">
+                        <picture>
+                            <img src="img/opiniones/perfil2.jpg" class="card-img-top" alt="Foto de Lucia M.">
+                        </picture>
+                        <div class="card-body">
+                            <h3 class="card-title">Lucía M.</h3>
+                            <h4 class="card-subtitle mb-2 text-body-secondary">Córdoba</h4>
+                            <p class="card-text"><em>"Compré una notebook para la facultad y llegó rapidísimo. Me ayudaron a elegir según lo que necesitaba, ¡excelente atención!"</em></p>
+                        </div>
+                        <ul class="reseña">
+                            <li><i class="bi bi-star-fill"><span>Estrella</span></i></li>
+                            <li><i class="bi bi-star-fill"><span>Estrella</span></i></li>
+                            <li><i class="bi bi-star-fill"><span>Estrella</span></i></li>
+                            <li><i class="bi bi-star-fill"><span>Estrella</span></i></li>
+                            <li><i class="bi bi-star"><span>Estrella Vacia</span></i></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card text-center h-100">
+                        <picture>
+                            <img src="img/opiniones/perfil3.jpg" class="card-img-top" alt="Foto de Marcos L.">
+                        </picture>
+                        <div class="card-body">
+                            <h3 class="card-title">Marcos L.</h3>
+                                <h4 class="card-subtitle mb-2 text-body-secondary">Mendoza</h4>
+                                <p class="card-text"><em>"Tuve un problema con el envío y lo resolvieron en el día. Me sentí súper acompañado. Así da gusto comprar tecnología."</em></p>
+                        </div>
+                        <ul class="reseña">
+                            <li><i class="bi bi-star-fill"><span>Estrella</span></i></li>
+                            <li><i class="bi bi-star-fill"><span>Estrella</span></i></li>
+                            <li><i class="bi bi-star-fill"><span>Estrella</span></i></li>
+                            <li><i class="bi bi-star-fill"><span>Estrella</span></i></li>
+                            <li><i class="bi bi-star-half"><span>Mitad de estrella</span></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section class="container" id="asesoramiento">
+            <h2 class="text-center mb-3 mt-5">Asesoramiento</h2>
+            <p class="text-center mb-4">Si no te decidis por que producto elegir, ¡consultanos!</p>
+
+            <form autocomplete="off" id="formulario" action="#" method="post" enctype="multipart/form-data">
+                <div class="row">
+                    <div class="col-lg-5 m-auto">
+                        <label for="nombre-form" class="form-label">Nombre</label>
+                        <input type="text" id="nombre-form" class="form-control mb-3" placeholder="Escriba su nombre" required="" data-sharkid="__0">
+                    </div>
+
+                    <div class="col-lg-5 m-auto">
+                        <label for="mail-form" class="form-label">Mail</label>
+                        <input type="email" id="mail-form" class="form-control mb-3" placeholder="ejemplo@hotmail.com" required="" data-sharkid="__1" data-sharklabel="email">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5 m-auto">
+                        <label for="tel-form" class="form-label">Telefono</label>
+                        <input type="tel" id="tel-form" class="form-control mb-3" placeholder="Escriba su telefono" required="" data-sharkid="__2">
+                    </div>
+
+                    <div class="col-lg-5 m-auto">
+                        <label for="profesion-form" class="form-label">¿A qué te dedicas?</label>
+                        <select id="profesion-form" class="form-select mb-3" data-sharkid="__3">
+                            <option value="Seleccionar-opcion" disabled="" selected="">Selecciona una opción</option>
+                            <option value="Estudiante">Estudiante</option>
+                            <option value="Profesional">Profesional</option>
+                            <option value="Aficionado">Aficionado</option>
+                        </select>
+                    </div>
+
+                    <div class="col-lg-11 mb-3 m-auto">
+                        <label for="comentario" class="form-label">Consulta</label>
+                        <textarea id="comentario" name="comentario" rows="4" class="form-control" required="" data-sharkid="__4"></textarea>
+                    </div>
+                    
+                </div>
+                
+                <input class="boton-enviar-form mb-4 mt-2 m-5" type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <!--MODAL para agregar al carrito-->
+        <div class="modal fade" id="modalAgregarCarrito" aria-labelledby="modal-titulo">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h3 id="modal-titulo">Gracias</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <p>Tu producto fue agregado correctamente al carrito</p>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Ir al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer class="w-100 p-5">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="p-4 col-lg-4 col-md-12">
+                    <h3 class="logo">BitNova - Tecnologia que te potencia</h3>
+                    <p>Copyright 2025 BitNova</p>
+                </div>
+                <div class="mb-1 p-4 col-lg-4 col-md-12 justify-content-center align-items-center">
+                    <h3>Explora</h3>
+                    <ul class="links-footer">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#que-ofrecemos">Que ofrecemos</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#opiniones">Opiniones</a></li>
+                        <li><a href="#asesoramiento">Asesoramiento</a></li>
+                    </ul>
+                </div>
+                <div class="mb-1 p-4 col-lg-4 col-md-12 justify-content-center align-items-center">
+                    <h3>Redes</h3>
+                    <ul class="redes d-flex flex-row">
+                        <li><a target="_blank" href="https://instagram.com/"><i class="bi bi-instagram"><span>Instagram</span></i></a></li>
+                        <li><a target="_blank" href="https://facebook.com/"><i class="bi bi-facebook"><span>Facebook</span></i></a></li>
+                        <li><a target="_blank" href="https://tiktok.com/"><i class="bi bi-tiktok"><span>TikTok</span></i></a>
+                        </li>
+                        <li><a target="_blank" href="https://x.com/"><i class="bi bi-twitter-x"><span>X</span></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="js/scripts.js" defer=""></script>
+
+
+</body>
+</html>
