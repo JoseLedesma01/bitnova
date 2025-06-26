@@ -200,13 +200,17 @@ nav ul li a:hover {
 
 /*PRODUCTOS*/
 
-/* .producto{
-  background-color: #002163;
+.backBlanco{
+  background-color: whitesmoke;
   border-radius: 8px;
   padding: 1em;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
   color: whitesmoke;
-} */
+}
+
+.fuenteNegra {
+  color: #002163;
+}
 
 #productos .alert {
   margin: 2em 0;
@@ -229,11 +233,19 @@ nav ul li a:hover {
 
 .div-botones {
   display: block;
+  text-align: center;
 }
 
 .div-botones button a {
   display: inline;
   margin: 0 0.5em;
+}
+
+.botonCarrito{
+  background-color: lightgray !important;
+  padding: 6px;
+  border-radius: 9px;
+  cursor: pointer;
 }
 
 #mas-productos {
